@@ -1,0 +1,146 @@
+/* Universal styles */
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+
+/* Header styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  width: 1200px;
+  position: fixed;
+  z-index: 2;
+  background-color: black;
+  top: 0;
+}
+
+.logo-image {
+  height: 50px;
+  padding-left: 10px;
+}
+
+a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+.header span {
+  padding-right: 20px;
+}
+
+/* Mission */
+
+.mission {
+  background-image: url(./../images/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  position: relative;
+  top: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.black-bar {
+  background-color: black;
+  width: 100%;
+  text-align: center;
+}
+
+/* Tea of the Month */
+
+.tea-of-the-month-header {
+  text-align: center;
+  width: 1000px;
+  padding-left: 100px;
+}
+
+.tea-of-the-month {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  left: 100px;
+  width: 1000px;
+}
+
+.tea-image {
+  height: 200px;
+  width: 300px;
+}
+
+.tea {
+  text-align: center;
+  padding: 0px 20px;
+}
+
+.totm {
+  position: relative;
+  top: 60px;
+}
+
+/* Locations */
+
+.locations {
+  background-image: url(./../images/img-locations-background.jpg);
+  height: 575px;
+  width: 1200px;
+  position: relative;
+  top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.locations h2 {
+}
+
+.addresses {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 20px;
+  width: 1200px;
+}
+
+.address {
+  background-color: black;
+  width: 300px;
+  height: 250px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+/* Footer */
+
+.footer {
+  text-align: center;
+  width: 1200px;
+  display: inline-block;
+  position: relative;
+  top: 60px;
+}
+
+.copyright {
+  text-align: left;
+  padding-left: 20px;
+  position: relative;
+  top: 60px;
+}
